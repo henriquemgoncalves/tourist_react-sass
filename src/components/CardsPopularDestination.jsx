@@ -3,9 +3,9 @@ import Swal from 'sweetalert2/dist/sweetalert2.js'
 import 'sweetalert2/src/sweetalert2.scss'
 
 const infos = [
-    { img: "./src/img/pelosa_beach.jpg", name: "La Pelosa Beach"},
-    { img: "./src/img/cala_granadella.jpg", name: "Cala Granadella"},
-    { img: "./src/img/butterfly_valley_beach.jpg", name: "Butterfly Valley Beach"},
+    { img: "/img/pelosa_beach.jpg", name: "La Pelosa Beach"},
+    { img: "/img/cala_granadella.jpg", name: "Cala Granadella"},
+    { img: "/img/butterfly_valley_beach.jpg", name: "Butterfly Valley Beach"},
 ];
 
 const CardsPopularDestination = () => {

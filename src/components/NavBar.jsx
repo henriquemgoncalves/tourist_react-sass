@@ -32,7 +32,7 @@ const NavBar = () => {
   return (
     <header id='container-navbar'>
         <div className="logo">
-            <img src='./src/img/logo.png' alt="logo"/>
+            <img src='/img/logo.png' alt="logo"/>
             <h3>TripQuest</h3>
         </div>
         <nav className={`nav ${isOpen ? 'open' : ''}`}>
