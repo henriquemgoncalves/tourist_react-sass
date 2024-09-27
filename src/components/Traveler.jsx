@@ -10,7 +10,7 @@ const Traveler = () => {
                 for a group of writers or influencers, showing them the best of their
                 destination in hopes of positive articles/lots of social media coverage.
             </h4>
-            <img src="https://github.com/henriquemgoncalves.png" alt="henrique"/>
+            <img src="/img/eu.jpg" alt="henrique"/>
             <h3>Henrique Gonçalves</h3>
             <p>
                 While it is possible to make money blogging. Growing your travel blog
