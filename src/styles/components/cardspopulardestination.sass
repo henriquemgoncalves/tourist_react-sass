@@ -1,0 +1,40 @@
+@use '../variables'
+@use '../mixins'
+    
+#container-cards-info
+    width: 100%
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    gap: 30px
+
+    .cards-info
+        display: inline-block
+        width: 370px
+        background-color: #f7f7f7
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+        border-radius: 3px
+        overflow: hidden
+        
+        img 
+            width: 370px
+            height: 260px
+
+        h3 
+            margin: .2rem 0
+            font-size: 1rem
+            color: variables.$text-primary-color
+
+        p 
+            font-size: .8rem
+            color: variables.$text-secundary-color
+            
+        
+        button 
+            margin: .7rem 0
+            @include mixins.btn
+            
+
+        
+    
+    

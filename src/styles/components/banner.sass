@@ -1,0 +1,47 @@
+@use '../variables'
+@use '../mixins'
+    
+#container-banner 
+    height: 90vh
+    display: flex
+    justify-content: center
+    align-items: center   
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    background-image: url('./src/img/banner.jpg')
+
+    .container
+        width: 70%
+        text-align: center
+        padding: 2rem
+        background-color: #ffffff9a
+        border-radius: variables.$radius
+
+        h1 
+            margin-bottom: 20px
+            font-size: 2.7rem
+            color: variables.$text-primary-color
+            font-weight: 500
+
+        p 
+            margin-bottom: 10px
+            font-size: 1.1rem
+            color: variables.$text-primary-color
+            font-weight: 400
+            padding: 1rem
+
+        button 
+            @include mixins.btn
+            font-size: 1rem
+            font-weight: 700
+            color: variables.$text-title-color
+            border: 1px solid variables.$text-title-color
+
+    @media ( max-width: 600px)
+           height: 110vh
+
+           .container
+                h1
+                    font-size: 2rem    
+            

@@ -1,0 +1,61 @@
+@use '../variables'
+    
+#container-newsletter
+    background-color: #d69b12
+    width: 100%    
+
+    .container
+        width: 100%
+        padding: 2rem 1rem
+        display: flex
+        justify-content: center
+        align-items: center
+        text-align: center
+        gap: 20px
+
+        h3 
+            font-size: 2rem
+            color: variables.$bg-color
+
+        .input-btn
+            width: 500px
+            display: flex
+            align-items: center
+
+            input 
+                padding: .7rem
+                width: 600px
+                border-radius: 5px
+                border: none
+
+            button 
+                margin-left: -153px
+                border-radius: 5px
+                width: 180px
+                height: 35px
+                color: #fff
+                background-color: #d69b12
+                font-weight: 700
+                border: none
+                
+    @media ( max-width: 980px)
+        .container
+            display: flex
+            flex-direction: column
+
+            input 
+                width: 100%
+
+    @media ( max-width: 535px)
+        padding: 0
+
+        .container
+        
+            .input-btn
+                width: 400px
+
+                input 
+                    width: 400px 
+
+                button 
+                    width: 150px     
